@@ -31,81 +31,83 @@ function App() {
           <Button variant="outline-light">Search</Button>
         </Form>
       </Navbar>
-      <MDBContainer class="center f">
-        <MDBRow>
-          <MDBCol md="12">
-            <MDBCard>
-              <MDBCardBody>
-                <form>
-                  <p className="h4 text-center py-4">GIVE US A FEEDBACK</p>
-                  <label
-                    htmlFor="defaultFormCardNameEx"
-                    className="grey-text font-weight-light"
-                  >
-                    Your name
-                  </label>
-                  <input
-                    type="text"
-                    id="defaultFormCardNameEx"
-                    className="form-control"
-                  />
-                  <br />
-                  <label
-                    htmlFor="defaultFormCardEmailEx"
-                    className="grey-text font-weight-light"
-                  >
-                    Your email
-                  </label>
-                  <input
-                    type="email"
-                    id="defaultFormCardEmailEx"
-                    className="form-control"
-                  />
-                  <label
-                    htmlFor="defaultFormCardNameEx"
-                    className="grey-text font-weight-light"
-                  >
-                    Contact Number
-                  </label>
-                  <input
-                    type="text"
-                    id="defaultFormCardNameEx"
-                    className="form-control"
-                  />
-                  <br />
-                  <label
-                    htmlFor="defaultFormCardNameEx"
-                    className="grey-text font-weight-light"
-                  >
-                    Company Name
-                  </label>
-                  <input
-                    type="text"
-                    id="defaultFormCardNameEx"
-                    className="form-control"
-                  />
-                  <br />
-                  <label
-                    htmlFor="defaultFormCardNameEx"
-                    className="grey-text font-weight-light"
-                  >
-                    Message
-                  </label>
-                  <input
-                    type="text"
-                    id="defaultFormCardNameEx"
-                    className="form-control"
-                  />
-                  <br />
-                  <div className="text-center py-4 mt-3">
-                    <Button as="input" type="send" value="Send" />
-                  </div>
-                </form>
-              </MDBCardBody>
-            </MDBCard>
-          </MDBCol>
-        </MDBRow>
-      </MDBContainer>
+      <div class="frm">
+        <MDBContainer class=" center  ">
+          <MDBRow>
+            <MDBCol md="12">
+              <MDBCard>
+                <MDBCardBody>
+                  <form>
+                    <p className="h4 text-center py-4">GIVE US A FEEDBACK</p>
+                    <label
+                      htmlFor="defaultFormCardNameEx"
+                      className="grey-text font-weight-light"
+                    >
+                      Your name
+                    </label>
+                    <input
+                      type="text"
+                      id="defaultFormCardNameEx"
+                      className="form-control"
+                    />
+                    <br />
+                    <label
+                      htmlFor="defaultFormCardEmailEx"
+                      className="grey-text font-weight-light"
+                    >
+                      Your email
+                    </label>
+                    <input
+                      type="email"
+                      id="defaultFormCardEmailEx"
+                      className="form-control"
+                    />
+                    <label
+                      htmlFor="defaultFormCardNameEx"
+                      className="grey-text font-weight-light"
+                    >
+                      Contact Number
+                    </label>
+                    <input
+                      type="text"
+                      id="defaultFormCardNameEx"
+                      className="form-control"
+                    />
+                    <br />
+                    <label
+                      htmlFor="defaultFormCardNameEx"
+                      className="grey-text font-weight-light"
+                    >
+                      Company Name
+                    </label>
+                    <input
+                      type="text"
+                      id="defaultFormCardNameEx"
+                      className="form-control"
+                    />
+                    <br />
+                    <label
+                      htmlFor="defaultFormCardNameEx"
+                      className="grey-text font-weight-light"
+                    >
+                      Message
+                    </label>
+                    <input
+                      type="text"
+                      id="defaultFormCardNameEx"
+                      className="form-control"
+                    />
+                    <br />
+                    <div className="text-center py-4 mt-3">
+                      <Button as="input" type="send" value="Send" />
+                    </div>
+                  </form>
+                </MDBCardBody>
+              </MDBCard>
+            </MDBCol>
+          </MDBRow>
+        </MDBContainer>
+      </div>
     </div>
   );
 }
